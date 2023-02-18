@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("Landing.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    size: 100%;
+}
+
+/* Navbar */
+
+.container {
+    height: 110px;
+    max-width: 1618px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+
+.main_logo {
+    font-family: 'Cherry Bomb', sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 64px;
+    color: #675B57;
+    margin-bottom: 35px;
+}
+
+
+
+.first_nav_item {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    line-height: 100%;
+    color: #675B57;
+    padding: 35px
+}
+
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+
+.nav_item {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+    line-height: 30px;
+    color: rgba(103, 91, 87, 0.7);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 35px;
+
+}
+
+.button_signup {
+    background: #FBEDDD;
+    height: 62px;
+    width: 123px;
+    border-radius: 24px;
+    color: #675B57;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 3px;
+
+}
+
+nav div ul :nth-child(6) {
+    flex-grow: 2;
+}
+
+nav div ul :nth-child(1) {
+    flex-grow: 1;
+}
+
+.nav_item_main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 15px 35px 35px 35px;
+}
+
+
+/* Header */
+.main_photo {
+
+    width: 379px;
+    height: 639px;
+}
+
+.header_container {
+    font-family: 'Poppins', sans-serif;
+    color: #675B57;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 35px;
+}
+
+.header_opinion_photo {
+    border-radius: 50%;
+}
