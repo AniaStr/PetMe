@@ -38,9 +38,15 @@ body {
     font-weight: 600;
     font-size: 20px;
     line-height: 30px;
-    line-height: 100%;
     color: #675B57;
-    padding: 35px
+    padding: 35px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 35px;
 }
 
 
