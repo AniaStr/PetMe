@@ -70,6 +70,7 @@ nav ul li {
     align-items: center;
     flex-wrap: nowrap;
     padding: 35px;
+    text-align: right;
 
 }
 
@@ -93,6 +94,7 @@ nav ul li {
 
 nav div ul :nth-child(6) {
     flex-grow: 2;
+    text-align: right;
 }
 
 nav div ul :nth-child(1) {
@@ -245,4 +247,14 @@ h2 {
 .fa-sharp {
     color: #3CA2B6;
     padding-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #675B57;
+}
+
+.a_downlad {
+    text-decoration: none;
+    color: white;
 }
