@@ -108,6 +108,12 @@ nav div ul :nth-child(1) {
 
     width: 379px;
     height: 639px;
+    padding-right: 80px;
+    padding-top: 15px;
+}
+
+.main_about {
+    flex-grow: 1;
 }
 
 .header_container {
@@ -119,8 +125,118 @@ nav div ul :nth-child(1) {
     align-items: center;
     flex-wrap: nowrap;
     padding: 35px;
+    margin: 0 auto;
+    max-width: 1618px;
+    height: 640px;
+    padding-top: 50px;
+
 }
 
 .header_opinion_photo {
     border-radius: 50%;
+}
+
+.info {
+    width: 587px;
+    height: 542px;
+    top: 225px;
+}
+
+h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 68px;
+
+    color: #675B57;
+    padding-bottom: 80px;
+}
+
+h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    padding-bottom: 32px;
+
+    color: #675B57;
+}
+
+.list_about {
+    list-style: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: #675B57;
+}
+
+.main_elements {
+    padding-bottom: 16px;
+}
+
+.opinion {
+    width: 244px;
+    padding-right: 43px;
+
+
+
+
+}
+
+.opinion_p1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+
+    color:
+        #675B57;
+    padding-bottom: 5px;
+    padding-top: 90px;
+
+}
+
+.opinion_p2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #675B57;
+    text-align: right;
+    padding-bottom: 65%;
+}
+
+.download {
+    width: 304px;
+    height: 70px;
+
+    background: #F38400;
+    border-radius: 24px;
+    border-style: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+
+    color: #FCF8F3;
+    margin-top: 40px;
+}
+
+.fa-brands {
+    padding-right: 30px;
+}
+
+.fa-sharp {
+    color: #3CA2B6;
+    padding-right: 10px;
 }
