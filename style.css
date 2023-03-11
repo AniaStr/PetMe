@@ -4,7 +4,8 @@
 }
 
 body {
-    background-image: url("Landing.png");
+    /* background-image: url("Landing.png"); */
+    background-color: #FCF8F3;
     background-size: cover;
     background-repeat: no-repeat;
     size: 100%;
@@ -12,7 +13,7 @@ body {
 
 /* Navbar */
 
-.container {
+.container-nav {
     height: 110px;
     max-width: 1618px;
     width: 100%;
@@ -135,7 +136,6 @@ nav div ul :nth-child(1) {
     padding: 35px;
     margin: 0 auto;
     max-width: 1618px;
-    height: 640px;
     padding-top: 50px;
 
 }
@@ -257,4 +257,24 @@ a {
 .a_downlad {
     text-decoration: none;
     color: white;
+    padding: 25px 60px 25px 60px;
+    /* padding-right: 60px;
+    padding-left: 60px;
+    padding-top: 25px;
+    padding-bottom: 25px; */
+}
+
+.download:hover {
+    background-color: #9f6218;
+    font-weight: bold;
+}
+
+.button_signup:hover {
+    background-color: #c7bbad;
+    font-weight: bold;
+}
+
+.nav_item:hover,
+.first_nav_item:hover {
+    font-weight: bolder;
 }
