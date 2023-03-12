@@ -135,13 +135,31 @@ nav div ul :nth-child(1) {
     flex-wrap: nowrap;
     padding: 35px;
     margin: 0 auto;
-    max-width: 1618px;
+    /* max-width: 1618px; */
     padding-top: 50px;
+    position: relative;
 
 }
 
 .header_opinion_photo {
     border-radius: 50%;
+    position: absolute;
+    top: 350px;
+    left: -45px;
+
+}
+
+.blop {
+    position: absolute;
+    top: 30px;
+
+
+}
+
+.girl {
+    position: absolute;
+    left: 250px;
+
 }
 
 .info {
@@ -189,10 +207,17 @@ h2 {
 
 .opinion {
     width: 244px;
-    padding-right: 43px;
+    /*padding-right: 43px; */
+    position: absolute;
+    top: 140px;
+    left: -50px;
 
+}
 
-
+.container_header_right {
+    position: absolute;
+    top: 10px;
+    left: 760px;
 
 }
 
@@ -205,8 +230,8 @@ h2 {
 
     color:
         #675B57;
-    padding-bottom: 5px;
-    padding-top: 90px;
+    /* padding-bottom: 5px;
+    padding-top: 90px; */
 
 }
 
@@ -219,7 +244,7 @@ h2 {
 
     color: #675B57;
     text-align: right;
-    padding-bottom: 65%;
+    /* padding-bottom: 65%; */
 }
 
 .download {
