@@ -135,7 +135,6 @@ nav div ul :nth-child(1) {
     flex-wrap: nowrap;
     padding: 35px;
     margin: 0 auto;
-    /* max-width: 1618px; */
     padding-top: 50px;
     position: relative;
 
@@ -302,4 +301,160 @@ a {
 .nav_item:hover,
 .first_nav_item:hover {
     font-weight: bolder;
+}
+
+
+/* main */
+
+.about_one {
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap; */
+    position: relative;
+}
+
+.phone_one {
+    position: absolute;
+    height: 680px;
+}
+
+.text-about {
+    position: absolute;
+    width: 830px;
+    left: 600px;
+}
+
+.about_two {
+    position: relative;
+    top: 650px;
+
+}
+
+.green_blop {
+    position: absolute;
+}
+
+.phone_two {
+    position: absolute;
+    left: 1000px;
+    top: 70px;
+}
+
+.text_about_two {
+    position: absolute;
+    left: 310px;
+    top: 0px;
+}
+
+.text-about h1 {
+    padding-top: 160px;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 617px;
+    padding-bottom: 35px;
+
+}
+
+.text-about p {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.text-about h2 {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #3CA2B6;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.text_about_two h1 {
+
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 762px;
+    padding-top: 120px;
+    padding-bottom: 35px;
+
+}
+
+.text_about_two p {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 830px;
+
+}
+
+.text_about_two h2 {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #94AA70;
+    padding-bottom: 0px;
+
+}
+
+.learn {
+    padding-right: 30px;
+    font-size: 400%;
+}
+
+.learn_div_green {
+    padding-top: 43px;
+    color: #94AA70;
+    display: flex;
+    align-items: center;
+}
+
+.learn_div_green a {
+    color: #94AA70;
+
+}
+
+.learn_div_green a:hover {
+    color: #4c543f;
+
+}
+
+.learn_div_blue {
+    padding-top: 43px;
+    color: #3CA2B6;
+    display: flex;
+    align-items: center;
+}
+
+.learn_div_blue a {
+    color: #3CA2B6;
+
+}
+
+.learn_div_blue a:hover {
+    color: #2a5964;
+
 }
